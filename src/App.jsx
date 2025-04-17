@@ -89,7 +89,6 @@ function App() {
         <Navbar />
         <Home />
         <About />
-        <Navbar />
         <Services />
         <Team />
         <Contact />
