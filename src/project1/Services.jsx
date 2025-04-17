@@ -4,7 +4,7 @@ import React from 'react';
 
 function Services() {
     return (
-        <section id="about" className="bg-black text-white py-10 px-6 md:rounded-tr-[5rem] md:rounded-bl-[5rem] mt-3">
+        <section id="services" className="bg-black text-white py-10 px-6 md:rounded-tr-[5rem] md:rounded-bl-[5rem] mt-3">
         <h1 className="text-4xl font-semibold text-blue-700 text-center mb-20 ">BEST SERVICES</h1>
         
         <div className="flex flex-col md:flex-row flex-wrap gap-10 items-center justify-center max-w-6xl mx-auto">
