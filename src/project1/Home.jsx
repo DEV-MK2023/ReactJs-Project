@@ -7,7 +7,7 @@ import { GrFormPrevious } from "react-icons/gr";
 
 
 
-function Slider() {
+function Home() {
   const images = [img1, img2, img3]; // Array of images
   const [currentIndex, setCurrentIndex] = useState(0); // State for current image index
   const delay = 3000; // Timer delay in milliseconds (3 seconds)
@@ -68,4 +68,4 @@ function Slider() {
   );
 }
 
-export default Slider;
+export default Home;
