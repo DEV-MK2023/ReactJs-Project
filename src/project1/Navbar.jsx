@@ -29,44 +29,44 @@ function Navbar() {
         } flex-col space-y-2 md:flex md:flex-row md:space-y-0 md:space-x-12 text-base font-medium bg-black md:bg-transparent p-4 md:p-0`}
       >
         <li>
-          <Link
-            to="/"
+          <a
+            href='#home'
             className="hover:text-white hover:bg-yellow-600 hover:shadow-lg hover:scale-110 transition duration-300 ease-in-out px-2 py-1 rounded-full"
           >
             Home
-          </Link>
+          </a>
         </li>
         <li>
-          <Link
-            to="/about"
+          <a
+            href='#about'
             className="hover:text-white hover:bg-yellow-600 hover:shadow-lg hover:scale-110 transition duration-300 ease-in-out px-2 py-1 rounded-full"
           >
             About
-          </Link>
+          </a>
         </li>
-        <li>
-          <Link
-            to="/services"
+       <li>
+          <a
+            href='#services'
             className="hover:text-white hover:bg-yellow-600 hover:shadow-lg hover:scale-110 transition duration-300 ease-in-out px-2 py-1 rounded-full"
           >
             Services
-          </Link>
+          </a>
         </li>
-        <li>
-          <Link
-            to="/team"
+       <li>
+          <a
+            href='#team'
             className="hover:text-white hover:bg-yellow-600 hover:shadow-lg hover:scale-110 transition duration-300 ease-in-out px-2 py-1 rounded-full"
           >
             Team
-          </Link>
+          </a>
         </li>
         <li>
-          <Link
-            to="/contact"
+          <a
+            href='#contact'
             className="hover:text-white hover:bg-yellow-600 hover:shadow-lg hover:scale-110 transition duration-300 ease-in-out px-2 py-1 rounded-full"
           >
             Contact
-          </Link>
+          </a>
         </li>
       </ul>
     </div>
