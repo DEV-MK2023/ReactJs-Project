@@ -10,7 +10,7 @@ import { FaComments } from "react-icons/fa6";
 
 function Team() {
     return (
-        <section id="about" className="bg-black text-white py-8 px-6 md:rounded-tr-[5rem] md:rounded-bl-[5rem] mt-3">
+        <section id="team" className="bg-black text-white py-8 px-6 md:rounded-tr-[5rem] md:rounded-bl-[5rem] mt-3">
   <h1 className="text-4xl font-semibold text-blue-700 text-center mb-20">Our Team</h1>
   
   <div className="flex flex-col md:flex-row flex-wrap gap-10 items-center justify-center max-w-6xl mx-auto">
