@@ -33,7 +33,7 @@ function Home() {
   }, [currentIndex]); // Re-run only when currentIndex changes
 
   return (
-    <div className="relative w-full h-[300px] md:h-[570px]">
+    <div id="home" className="relative w-full h-[300px] md:h-[570px]">
       {/* Slider Images */}
       <img src={images[currentIndex]} alt="Slider Image" className="w-full h-full object-cover transition-all duration-500 ease-in-out" />
       {/* Previous Button */}
